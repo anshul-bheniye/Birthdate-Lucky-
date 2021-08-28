@@ -1,0 +1,1 @@
+alert('Virtual Handshake 100%');
