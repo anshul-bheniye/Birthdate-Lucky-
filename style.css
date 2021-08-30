@@ -1,3 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap");
+
 body {
-  background-color: black;
+  background-image: linear-gradient(to right, #2563eb, #ec4899);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+/* font style */
+.answer,
+.title {
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: x-large;
+}
+
+label {
+  font-size: x-large;
+  text-align: left;
+}
+
+.dob {
+  margin-bottom: 20px;
+}
+
+.btn {
+  max-width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+a {
+  margin-right: 1rem;
 }
