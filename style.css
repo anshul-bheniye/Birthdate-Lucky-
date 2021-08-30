@@ -64,8 +64,22 @@ a {
   margin-right: 1rem;
 }
 
+/* media queries */
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 320px;
+  }
+  .card {
+    max-width: 360px;
+  }
+}
+
 @media (max-width: 320px) {
   .container {
-    max-width: 400px;
+    max-width: 200px;
+  }
+  .card {
+    max-width: 180px;
   }
 }
