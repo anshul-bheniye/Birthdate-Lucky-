@@ -26,13 +26,13 @@ button.addEventListener('click', function(e){
 
 // display message
  if(sumOfDMY % fetchLN === 0){
-     displayMessage.innerText=`${fetchLN} is lucky number 🎊🎊`;
+     displayMessage.innerText= "Birthdate is lucky 🎊🎊";
     } 
     else if(fetchLN === "" || sumOfDMY === undefined){
         displayMessage.innerText='Fill up both fields';
     }
  else{
-    displayMessage.innerText=`${fetchLN} is not that lucky 😞`;
+    displayMessage.innerText="Your birthdate is not that lucky 😞 " ;
     }
 
    
