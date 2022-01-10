@@ -7,7 +7,7 @@ let displayMessage = document.querySelector('.container .answer');
 // button onclick
 let button = document.querySelector('.card .btn');
 
-button.addEventListener('click', function(e){
+button.addEventListener('click', (e) => {
 
 // preventing default behaviour of button
     e.preventDefault();
